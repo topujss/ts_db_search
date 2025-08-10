@@ -8,6 +8,7 @@ import {
 import axios from 'axios'
 
 const AppContext = createContext()
+console.log('we')
 
 const AppDataProvider = ({ children }) => {
 	const [loading, setLoading] = useState(false)
